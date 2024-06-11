@@ -1,0 +1,80 @@
+<resources>
+    <string name="app_name">AniketMonani</string>
+<string name="enter">Enter</string>
+<string name="select_menu_type">Select Menu Type</string>
+<string name="beverages_or_drinks">Beverages or Drinks</string>
+<string name="breakfast">Breakfast</string>
+<string name="desserts_amp_shakes"><![CDATA[Desserts & Shakes]]></string>
+<string name="lunch">Lunch</string>
+<string name="dinner">Dinner</string>
+<string name="bagel_description">Delicious bagel with cream cheese</string>
+<string name="bagel_name">Bagel</string>
+<string name="bagel_price">$ 2.00</string>
+<string name="muffin_description">Freshly baked muffin</string>
+<string name="muffin_name">Muffin</string>
+<string name="muffin_price">$ 1.00</string>
+
+    <string name="wrap_description">Delicious wrap with cream cheese</string>
+    <string name="wrap_name">wrap</string>
+    <string name="wrap_price">$6.00</string>
+    <string name="burrito_description">Freshly baked burrito</string>
+    <string name="burrito_name">burrito</string>
+    <string name="burrito_price">$5.00</string>
+
+    <string name="burgers_description">Burgers Using beans, grains or seitan</string>
+    <string name="burgers_name">Burgers</string>
+    <string name="burgers_price">$4.00</string>
+    <string name="bean_description">Spicy Beans</string>
+    <string name="bean_name">Mixed Bean Chilly</string>
+    <string name="bean_price">$6.00</string>
+
+    <string name="drinks_description">Coke, Pepsi, Sprite</string>
+    <string name="drinks_name">Cold-Drinks</string>
+    <string name="drinks_price">$2.00</string>
+    <string name="milkshake_description">Chocolate Milkshake, Strawberry Milkshake</string>
+    <string name="milkshake_name">Milkshake</string>
+    <string name="milkshake_price">$5.00</string>
+
+    <string name="icecream_description">Chocolate Ice Cream, Mango Ice Cream</string>
+    <string name="icecream_name">Ice Cream</string>
+    <string name="icecream_price">$2.50</string>
+    <string name="pastry_description">Chocolate pastry, Pineapple pastry</string>
+    <string name="pastry_name">pastry</string>
+    <string name="pastry_price">$3.50</string>
+    <string name="payment_method">Debit card or Credit card</string>
+    <string name="selected_items">Selected Items</string>
+    <string name="checkout">Checkout</string>
+    <string name="cash">Cash</string>
+    <string name="pay">Pay</string>
+    <string name="credit_card">Credit Card</string>
+    <string name="add_to_cart">Add to Cart</string>
+
+    <!-- Payment Options -->
+    <string name="payment_cash">Cash</string>
+    <string name="payment_credit">Credit Card</string>
+    <string name="payment_debit">Debit Card</string>
+
+    <!-- Card Details -->
+    <string name="hint_full_name">Full Name</string>
+    <string name="hint_address">Address</string>
+    <string name="hint_phone_number">Phone Number</string>
+    <string name="hint_card_number">Card Number</string>
+    <string name="hint_expiry_date">Expiry Date (MM/YYYY)</string>
+
+    <!-- Additional Information -->
+    <string name="hint_favorite_sport">Favorite Sport</string>
+    <string name="hint_favorite_team">Favorite Team</string>
+    <string name="hint_favorite_movie">Favorite Movie</string>
+
+    <!-- Button Text -->
+    <string name="submit_payment">Submit Payment</string>
+    <string name="proceed_to_payment">Proceed to Payment</string>
+    <string name="address">Address</string>
+    <string name="card_number">Card Number</string>
+    <string name="expiry_date_mm_yyyy">Expiry Date (MM/YYYY)</string>
+    <string name="full_name">Full Name</string>
+    <string name="desserts">Desserts</string>
+    <string name="drinks">Drinks</string>
+    <string name="credit_card_image">Credit Card Image</string>
+
+</resources>

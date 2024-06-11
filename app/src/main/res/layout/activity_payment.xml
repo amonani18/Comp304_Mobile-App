@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/blue">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="30dp">
+
+        <!-- Payment Options -->
+        <RadioGroup
+            android:id="@+id/payment_options_group"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/payment_cash"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:text="Cash"
+                android:textColor="@color/black"
+                android:buttonTint="@color/black"
+                tools:ignore="HardcodedText,TouchTargetSizeCheck" />
+
+            <RadioButton
+                android:id="@+id/payment_credit"
+                android:layout_width="120dp"
+                android:layout_height="50dp"
+                android:buttonTint="@color/black"
+                android:text="Credit Card"
+                android:textColor="@color/black"
+                tools:ignore="HardcodedText,TouchTargetSizeCheck" />
+
+            <RadioButton
+                android:id="@+id/payment_debit"
+                android:layout_width="120dp"
+                android:layout_height="50dp"
+                android:textColor="@color/black"
+                android:buttonTint="@color/black"
+                android:text="Debit Card"
+                tools:ignore="HardcodedText,TouchTargetSizeCheck" />
+        </RadioGroup>
+
+        <!-- Card Details -->
+        <LinearLayout
+            android:id="@+id/card_details_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <ImageView
+                android:id="@+id/card_image"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:contentDescription="Credit Card Image"
+                android:src="@drawable/credit_card"
+                android:visibility="gone"
+                tools:ignore="ContentDescription,HardcodedText" />
+
+            <EditText
+                android:id="@+id/full_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/full_name"
+                android:inputType="textPersonName"
+                tools:ignore="Autofill"
+                android:textColorHint="@color/black"
+                android:textColor="@color/black"/>
+
+            <EditText
+                android:id="@+id/address"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:autofillHints=""
+                android:hint="@string/address"
+                android:inputType="textPostalAddress"
+                android:textColorHint="@color/black"
+                android:textColor="@color/black"/>
+
+            <EditText
+                android:id="@+id/phone_number"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:autofillHints=""
+                android:hint="Phone Number"
+                android:importantForAutofill="no"
+                android:inputType="phone"
+                tools:ignore="HardcodedText"
+                android:textColorHint="@color/black"
+                android:textColor="@color/black"/>
+
+            <EditText
+                android:id="@+id/card_number"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/card_number"
+                android:inputType="number"
+                tools:ignore="Autofill"
+                android:textColorHint="@color/black"
+                android:textColor="@color/black"/>
+
+            <EditText
+                android:id="@+id/expiry_date"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/expiry_date_mm_yyyy"
+                android:inputType="number"
+                tools:ignore="Autofill,TextFields"
+                android:textColorHint="@color/black"
+                android:textColor="@color/black"/>
+
+            <!-- Additional Information -->
+            <EditText
+                android:id="@+id/favorite_sport"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Favorite Sport"
+                tools:ignore="Autofill,HardcodedText,TextFields"
+                android:textColorHint="@color/black"
+                android:textColor="@color/black"/>
+
+            <EditText
+                android:id="@+id/favorite_team"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Favorite Team"
+                tools:ignore="Autofill,HardcodedText,TextFields"
+                android:textColorHint="@color/black"
+                android:textColor="@color/black"/>
+
+            <EditText
+                android:id="@+id/favorite_movie"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Favorite Movie"
+                tools:ignore="Autofill,HardcodedText,TextFields"
+                android:textColorHint="@color/black"
+                android:textColor="@color/black"/>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/submit_payment"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:text="Submit Payment"
+            android:layout_gravity="center"
+            android:background="@drawable/rounded_button"
+            tools:ignore="HardcodedText,VisualLintButtonSize"
+            />
+    </LinearLayout>
+</ScrollView>

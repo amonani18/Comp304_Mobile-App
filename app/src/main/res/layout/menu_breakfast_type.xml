@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/blue">
+
+    <!-- Bagel Product -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <ImageView
+            android:id="@+id/bagel_image"
+            android:layout_width="64dp"
+            android:layout_height="match_parent"
+            android:contentDescription="@string/bagel_description"
+            android:src="@drawable/bagel"
+            tools:ignore="ImageContrastCheck" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:textColor="@color/black"
+            >
+
+            <CheckBox
+                android:id="@+id/bagel_checkbox"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:minHeight="48dp"
+                android:text="@string/bagel_name"
+                android:textColor="@color/black"
+                android:buttonTint="@color/black"/>
+
+            <TextView
+                android:id="@+id/bagel_description"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/bagel_description"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:id="@+id/bagel_price"
+                android:layout_width="match_parent"
+                android:layout_height="32dp"
+                android:text="@string/bagel_price"
+                android:textColor="@color/black"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <!-- Muffin Product -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/muffin_image"
+            android:layout_width="64dp"
+            android:layout_height="match_parent"
+            android:contentDescription="@string/muffin_description"
+            android:src="@drawable/muffin"
+            tools:ignore="ImageContrastCheck" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+            <CheckBox
+                android:id="@+id/muffin_checkbox"
+                android:layout_width="98dp"
+                android:layout_height="wrap_content"
+                android:minHeight="48dp"
+                android:text="@string/muffin_name"
+                android:textColor="@color/black"
+                android:buttonTint="@color/black"/>
+
+            <TextView
+                android:id="@+id/muffin_description"
+                android:layout_width="match_parent"
+                android:layout_height="37dp"
+                android:text="@string/muffin_description"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:id="@+id/muffin_price"
+                android:layout_width="match_parent"
+                android:layout_height="43dp"
+                android:text="@string/muffin_price"
+                android:textColor="@color/black"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <!-- Add to Cart and Checkout Buttons -->
+    <LinearLayout
+        style="?android:attr/buttonBarStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:paddingTop="30dp"
+        >
+
+        <Button
+            android:id="@+id/add_to_cart_button"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/rounded_button"
+            android:text="@string/add_to_cart"
+            android:textColor="#000000" />
+
+        <Button
+            android:id="@+id/checkout_button"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:background="@drawable/rounded_button"
+            android:text="@string/checkout"
+            android:textColor="#000000" />
+    </LinearLayout>
+</LinearLayout>
