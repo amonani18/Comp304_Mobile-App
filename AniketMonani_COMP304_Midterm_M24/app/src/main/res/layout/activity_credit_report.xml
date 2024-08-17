@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#B3E5FC"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_greeting"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hello John Smith!"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:paddingBottom="8dp" />
+
+        <TextView
+            android:id="@+id/tv_address"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Address: 25, Progress Ave"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/tv_sin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SIN Number: 300999000"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/tv_income"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Annual Income: $87,000"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/tv_age"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Age: 35"
+            android:textSize="16sp"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:id="@+id/tv_credit_score_status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Credit Score Status: 740 to 799 Very Good"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/tv_inquiry_type"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Type of Inquiry: Hard"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/tv_eligibility"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="You are eligible to apply for a loan!"
+            android:textSize="16sp" />
+
+        <ImageView
+            android:id="@+id/iv_credit_score_chart"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:contentDescription="TODO"
+            android:scaleType="centerInside"
+            android:src="@drawable/creditscore"
+            tools:ignore="HardcodedText,ImageContrastCheck" />
+    </LinearLayout>
+</ScrollView>

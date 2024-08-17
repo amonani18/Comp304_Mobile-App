@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">AniketMonani_COMP304ex1</string>
+    <string name="toggle_map_type">Layers  </string>
+    <string name="canada_landmark_locator">Canada Landmark Locator</string>
+</resources>

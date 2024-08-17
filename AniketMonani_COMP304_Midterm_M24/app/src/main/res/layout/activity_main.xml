@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:autofillHints=""
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:background="#C8E6C9">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="16dp"
+            android:text="@string/get_your_canadian_credit_score"
+            android:textColor="#1976D2"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/et_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autofillHints=""
+            android:background="@drawable/rounded_edittext"
+            android:hint="@string/first_and_last_names"
+            android:importantForAutofill="no"
+            android:inputType="textPersonName"
+            android:minHeight="48dp"
+            android:padding="10dp"
+            android:textColorHint="#757575"
+            tools:ignore="VisualLintTextFieldSize" />
+
+        <EditText
+            android:id="@+id/et_address"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/rounded_edittext"
+            android:hint="@string/address"
+            android:inputType="textPostalAddress"
+            android:minHeight="48dp"
+            android:padding="10dp"
+            android:textColorHint="#757575"
+            tools:ignore="Autofill,VisualLintTextFieldSize" />
+
+        <EditText
+            android:id="@+id/et_sin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/rounded_edittext"
+            android:hint="@string/social_insurance_number_sin"
+            android:importantForAutofill="no"
+            android:inputType="number"
+            android:minHeight="48dp"
+            android:padding="10dp"
+            android:textColorHint="#757575"
+            tools:ignore="VisualLintTextFieldSize" />
+
+        <EditText
+            android:id="@+id/et_income"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autofillHints=""
+            android:background="@drawable/rounded_edittext"
+            android:hint="@string/annual_income"
+            android:importantForAutofill="no"
+            android:inputType="numberDecimal"
+            android:minHeight="48dp"
+            android:padding="10dp"
+            android:textColorHint="#757575"
+            tools:ignore="VisualLintTextFieldSize" />
+
+        <EditText
+            android:id="@+id/et_dob"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/rounded_edittext"
+            android:hint="@string/date_of_birth_mm_dd_yyyy"
+            android:inputType="date"
+            android:minHeight="48dp"
+            android:padding="10dp"
+            android:textColorHint="#757575"
+            tools:ignore="Autofill,VisualLintTextFieldSize" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/select_credit_score"
+            android:paddingTop="16dp"
+            android:textSize="16sp"
+            android:textColor="#000000" />
+
+        <ListView
+            android:id="@+id/lv_credit_score"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:background="@drawable/rounded_listview"
+            android:divider="@android:color/darker_gray"
+            android:dividerHeight="1dp"
+            android:entries="@array/credit_scores"
+            tools:ignore="NestedScrolling" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/types_of_inquiry"
+            android:paddingTop="16dp"
+            android:textSize="16sp"
+            android:textColor="#000000" />
+
+        <RadioGroup
+            android:id="@+id/rg_inquiry_type"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="10dp">
+
+            <RadioButton
+                android:id="@+id/rb_soft"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Soft"
+                android:textSize="16sp"
+                tools:ignore="HardcodedText" />
+            <RadioButton
+                android:id="@+id/rb_hard"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Hard"
+                android:textSize="16sp"
+                tools:ignore="HardcodedText" />
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/btn_get_credit_score"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/get_credit_report"
+            android:layout_gravity="center_horizontal"
+            android:padding="16dp"
+            android:backgroundTint="#8E24AA"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:elevation="4dp" />
+    </LinearLayout>
+</ScrollView>

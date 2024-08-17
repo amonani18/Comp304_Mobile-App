@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="credit_scores">
+        <item>800 to 850</item>
+        <item>740 to 799</item>
+        <item>670 to 739</item>
+        <item>580 to 669</item>
+        <item>300 to 579</item>
+    </string-array>
+</resources>

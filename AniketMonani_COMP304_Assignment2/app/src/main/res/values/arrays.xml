@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="menu_types">
+        <item>Breakfast</item>
+        <item>Sandwiches</item>
+        <item>Wraps</item>
+        <item>Beverages or Drinks</item>
+        <item>Desserts &amp; Shakes</item>
+    </array>
+</resources>

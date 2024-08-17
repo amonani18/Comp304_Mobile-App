@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">AniketMonani_COMP304_001_Midterm_M24</string>
+    <string name="credit_score">Credit Score</string>
+    <string name="date_of_birth">Date of Birth</string>
+    <string name="get_credit_score">Get Credit Score</string>
+    <string name="name">Name</string>
+    <string name="hard">Hard</string>
+    <string name="soft">Soft</string>
+    <string name="get_credit_report">Get Credit Report</string>
+    <string name="get_your_canadian_credit_score">Get your Canadian Credit Score</string>
+    <string name="select_credit_score">Select Credit Score</string>
+    <string name="types_of_inquiry">Types of Inquiry</string>
+    <string name="address">Address</string>
+    <string name="date_of_birth_mm_dd_yyyy">Date of Birth (MM/DD/YYYY)</string>
+    <string name="annual_income">Annual Income</string>
+    <string name="first_and_last_names">First and Last Names</string>
+    <string name="social_insurance_number_sin">Social Insurance Number (SIN)</string>
+</resources>

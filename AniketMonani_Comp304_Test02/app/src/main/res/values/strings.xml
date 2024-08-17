@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Vaccine Schedule App</string>
+    <string name="title_activity_vaccine_details">Vaccine Details</string>
+</resources>
